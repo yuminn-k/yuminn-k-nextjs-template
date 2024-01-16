@@ -3,7 +3,7 @@
 This is a Next.js boilerplate project created using `npx create-next-app`. It comes with TypeScript support and includes GTS, commitlint, husky, and Jest.
 
 ## Getting Started
-To get started, clone the repository and install the dependencies using `yarn install`. Then, run the development server using `yarn dev`.
+To get started, clone the repository and install the dependencies using `yarn`. Then, run the development server using `yarn start`.
 
 ## Scripts
 - `dev`: Runs the development server
