@@ -1,51 +1,51 @@
 # yuminnk-nextjs-template
 
-This repository is a Next.js boilerplate project created with `npx create-next-app`, tailored for TypeScript development. It includes essential development tools such as GTS (Google TypeScript Style), commitlint, husky, and Jest.
+このリポジトリは `npx create-next-app` を使用して作成されたNext.jsボイラープレートプロジェクトで、TypeScript開発に特化しています。GTS（Google TypeScript Style）、commitlint、husky、およびJestなどの基本的な開発ツールが含まれています。
 
-## Table of Contents
+## 目次
 
-- [Getting Started](#getting-started)
-- [Scripts](#scripts)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+- [はじめに](#はじめに)
+- [スクリプト](#スクリプト)
+- [使用技術](#使用技術)
+- [プロジェクト構造](#プロジェクト構造)
+- [コントリビュート](#コントリビュート)
+- [ライセンス](#ライセンス)
 
-## Getting Started
+## はじめに
 
-To get started with this project, follow these steps:
+このプロジェクトを開始するには、以下の手順に従ってください：
 
-1. **Clone the repository**:
+1. **リポジトリをクローン**:
     ```sh
     git clone https://github.com/yourusername/yuminnk-nextjs-template.git
     cd yuminnk-nextjs-template
     ```
 
-2. **Install dependencies**:
+2. **依存関係をインストール**:
     ```sh
     yarn install
     ```
 
-3. **Run the development server**:
+3. **開発サーバーを実行**:
     ```sh
     yarn dev
     ```
-    The application will be available at `http://localhost:3000`.
+    アプリケーションは `http://localhost:3000` で利用可能になります。
 
-## Scripts
+## スクリプト
 
-Here are the available scripts you can run in the project:
+プロジェクトで実行できるスクリプトは次のとおりです：
 
-- `yarn dev`: Runs the development server.
-- `yarn build`: Builds the production application.
-- `yarn start`: Starts the production server.
-- `yarn lint`: Lints the code using GTS.
-- `yarn test`: Runs the tests using Jest.
-- `yarn test:watch`: Runs the tests in watch mode.
-- `yarn postinstall`: Sets up Husky for Git hooks.
-- `yarn lint-staged`: Runs ESLint on staged files.
+- `yarn dev`: 開発サーバーを実行します。
+- `yarn build`: 本番用アプリケーションをビルドします。
+- `yarn start`: 本番サーバーを起動します。
+- `yarn lint`: GTSを使用してコードをリントします。
+- `yarn test`: Jestを使用してテストを実行します。
+- `yarn test:watch`: ウォッチモードでテストを実行します。
+- `yarn postinstall`: GitフックのためにHuskyを設定します。
+- `yarn lint-staged`: ステージングされたファイルにESLintを実行します。
 
-## Technologies Used
+## 使用技術
 
 - **Next.js**: `14.0.4`
 - **TypeScript**: `5.3.3`
@@ -54,40 +54,40 @@ Here are the available scripts you can run in the project:
 - **Husky**: `8.0.3`
 - **Jest**: `29.7.0`
 
-## Project Structure
+## プロジェクト構造
 
-The project structure follows the standard Next.js setup with a few additional configurations for linting and testing:
+プロジェクト構造は標準のNext.jsセットアップに従い、リントおよびテストのための追加設定が含まれています：
 
 ```
 /yuminnk-nextjs-template
-├── /components        # React components
-├── /pages             # Next.js pages
-├── /public            # Static assets
-├── /styles            # CSS styles
-├── /tests             # Jest tests
-├── .eslintrc.js       # ESLint configuration
-├── .gitignore         # Git ignore rules
-├── commitlint.config.js # Commitlint configuration
-├── jest.config.js     # Jest configuration
-├── package.json       # Project dependencies and scripts
-├── tsconfig.json      # TypeScript configuration
-└── yarn.lock          # Yarn lock file
+├── /components        # Reactコンポーネント
+├── /pages             # Next.jsページ
+├── /public            # 静的アセット
+├── /styles            # CSSスタイル
+├── /tests             # Jestテスト
+├── .eslintrc.js       # ESLint設定
+├── .gitignore         # Gitの無視ルール
+├── commitlint.config.js # Commitlint設定
+├── jest.config.js     # Jest設定
+├── package.json       # プロジェクトの依存関係とスクリプト
+├── tsconfig.json      # TypeScript設定
+└── yarn.lock          # Yarnロックファイル
 ```
 
-## Contributing
+## コントリビュート
 
-Contributions are welcome! To contribute:
+コントリビュートは歓迎します！コントリビュートするには：
 
-1. Fork the repository.
-2. Create a new branch: `git checkout -b feature-branch`.
-3. Make your changes and commit them: `git commit -m 'Add some feature'`.
-4. Push to the branch: `git push origin feature-branch`.
-5. Open a pull request.
+1. リポジトリをフォークします。
+2. 新しいブランチを作成します： `git checkout -b feature-branch`。
+3. 変更を加えてコミットします： `git commit -m 'Add some feature'`。
+4. ブランチにプッシュします： `git push origin feature-branch`。
+5. プルリクエストを開きます。
 
-Please ensure your code adheres to the project's linting and testing standards.
+コードがプロジェクトのリントおよびテスト基準に従っていることを確認してください。
 
-## License
+## ライセンス
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+このプロジェクトはMITライセンスの下でライセンスされています。詳細は [LICENSE](LICENSE) ファイルを参照してください。
 
-Feel free to customize this template to fit your needs!
+このテンプレートを必要に応じてカスタマイズしてください！
